@@ -22,9 +22,9 @@ if (navigator.geolocation) {
                 [20.86897586067852, -98.31295764673041],
                 [20.868887788517927, -98.31303507091484]
             ]).addTo(map);
-            marcador.bindPopup('<b>Esoy Aqui ...</b> <br> Mis coordenadas son: <br>Latitud: ' +
+            marcador.bindPopup('<b>Estoy Aqui...</b> <br> Mis coordenadas son: <br>Latitud: ' +
                 lat + '<br>Longitud: ' + lon).openPopup();
-            polygon.bindPopup("Hola! este es el lugar donde vivo con toda mi familia");
+            polygon.bindPopup("Hola! este es el perimetro de mi casa y aqui es donde vivo");
 
         },
         ()=> { })
